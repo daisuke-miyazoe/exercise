@@ -74,17 +74,20 @@ h2 {
 	margin-left: 15px 0 5px;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
 	main {
 		width: 90%;
 	}
 	.box {
+		width: 90%;
+		float: none;
 		margin-bottom: 20px;
+		margin: 50px auto;
 	}
 	.box:first-child {
 		margin-top: 50px;
 	}
 	.box:last-child {
-		margin-bottom: 50px;
+		margin: 50px auto;
 	}
 }
